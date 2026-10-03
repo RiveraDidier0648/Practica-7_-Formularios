@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario para Contraseñas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: sans-serif; background: #f4f6f9; color: #333; padding: 20px; }
+        h2 { color: #007bff; }
+        input[type="text"], input[type="password"] { margin-bottom: 10px; padding: 4px; border: 1px solid #ccc; border-radius: 4px; }
+        input[type="submit"], input[type="reset"] { padding: 6px 12px; border: none; border-radius: 4px; cursor: pointer; color: white; }
+        input[type="submit"] { background: #007bff; }
+        input[type="reset"] { background: #dc3545; }
+    </style>
 </head>
 <body>
     <h2>Formulario para contraseñas</h2>
@@ -14,7 +21,7 @@
         <br>
         Ingresa tu contraseña:
         <input type="password" name="pass">
-        <br>
+        <br><br>
         <input type="submit" value="enviar">
         <input type="reset" value="borrar">
     </form>
